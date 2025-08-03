@@ -27,13 +27,8 @@ while True:
         def getpoint(index):
             return int(landmarks[index].x*w),int(landmarks[index].y*h)
         
-        #nose = NOSE_TIP
-        #chin = CHIN
-        #leye = LEFT_EYE
-        #reye = RIGHT_EYE
-        #forehead = FOREHEAD
+        
 
-        #if(getpoint(nose)[0] <):
         nose_x = landmarks[1].x  
         leye_x = landmarks[33].x
         reye_x = landmarks[263].x
@@ -111,6 +106,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
-#cap.release()
-#cv2.destroyAllWindows()    
+   
+
 
